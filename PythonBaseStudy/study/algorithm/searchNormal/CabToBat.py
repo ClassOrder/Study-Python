@@ -7,7 +7,7 @@ graph["CAT"] = ["MAT", "BAT"]
 graph["BAR"] = ["BAT"]
 graph["MAT"] = ["BAT"]
 
-def findWay(name):
+def findWay(name, goal):
     find_queue = deque()
     find_queue += graph[name]
     edgeCount = {}
@@ -20,11 +20,11 @@ def findWay(name):
         visited.append(nextWord)
     while find_queue:
         word = find_queue.popleft()
-        if is_word(word):
+        if is_word(word, goal):
             print("Found BAT")
             return edgeCount[word]
         else:
-            print("NOT YET LEACHED BAT. CURRENT: " + word)
+            print("NOT YET REACHED BAT. CURRENT: " + word)
             visited.append(word)
             for nextWord in graph[word]:
                 if not nextWord in visited:
@@ -34,7 +34,7 @@ def findWay(name):
                 find_queue += graph[word]
     return False
 
-def is_word(name):
-    return name == "BAT"
+def is_word(name, goal):
+    return name == goal
 
-print(findWay("MAT"))
+print(findWay("CAB", "BAT"))
