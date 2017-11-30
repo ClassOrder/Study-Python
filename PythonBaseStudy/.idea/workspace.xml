@@ -51,11 +51,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CabToBat.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CabToBat.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/study/algorithm/searchNormal/CabToBat.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="173">
               <caret line="26" column="28" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dijkstra.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/study/algorithm/searchNormal/Dijkstra.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -78,6 +88,7 @@
         <option value="$PROJECT_DIR$/study/algorithm/resursive.py" />
         <option value="$PROJECT_DIR$/study/algorithm/searchNormal/findSomeone.py" />
         <option value="$PROJECT_DIR$/study/algorithm/searchNormal/CabToBat.py" />
+        <option value="$PROJECT_DIR$/study/algorithm/searchNormal/Dijkstra.py" />
       </list>
     </option>
   </component>
@@ -153,7 +164,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.CabToBat">
+  <component name="RunManager" selected="Python.Dijkstra">
     <configuration name="CabToBat" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -167,6 +178,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonBaseStudy" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study/algorithm/searchNormal/CabToBat.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="Dijkstra" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study/algorithm/searchNormal" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonBaseStudy" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study/algorithm/searchNormal/Dijkstra.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -205,16 +233,18 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.basicBinary" />
       <item index="1" class="java.lang.String" itemvalue="Python.findSomeone" />
       <item index="2" class="java.lang.String" itemvalue="Python.CabToBat" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Dijkstra" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.CabToBat" />
-        <item index="1" class="java.lang.String" itemvalue="Python.findSomeone" />
-        <item index="2" class="java.lang.String" itemvalue="Python.basicBinary" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.Dijkstra" />
+        <item index="1" class="java.lang.String" itemvalue="Python.CabToBat" />
+        <item index="2" class="java.lang.String" itemvalue="Python.findSomeone" />
+        <item index="3" class="java.lang.String" itemvalue="Python.basicBinary" />
       </list>
     </recent_temporary>
   </component>
@@ -379,6 +409,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="26" column="28" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study/algorithm/searchNormal/Dijkstra.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
           <folding />
         </state>
       </provider>
